@@ -38,7 +38,7 @@ h3 {
   color: #000000;
 }
 
-.btn {
+.button {
   text-decoration: none;
   color: #000000;
   background: #FFFFFF url('img/texture2.png') no-repeat;
@@ -48,7 +48,7 @@ h3 {
 
 }
 
-.btn:hover {
+.button:hover {
   background-color: #FFFFFF;
 }
 

@@ -2,11 +2,17 @@
 
   $(document).ready(function(){
 
-    $("btn").click(function(){
+    var num1 = document.getElementById("X");
+    var num2 = document.getElementById("Y");
 
-      $("#Calcs").val($("#Calcs").val() + $(this).html());
+    $(".button").click(function(){
 
-    function $(id){return document.getElementById(id)}
+      $(".result").parseInt($('input[name="one"]').val() + $('input[name="two"]').val());
+
+    });
+
+
+    /*function $(id){return document.getElementById(id)}
 
       function add()
         {
@@ -24,7 +30,7 @@
                 num1 = number(document.one.value);
                 num2 = number(document.two.value);
                   result = num1 + num2;
-                }
+                } */
 </script>
 
 })
