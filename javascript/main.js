@@ -2,28 +2,21 @@
 
   $(document).ready(function(){
 
-
-
-
-
-
-    var x = $('input[name="one"]');
-
-    var y = $('input[name="two"]');
-
-    x = .parseInt(x);
-
-    y = .parseInt(y);
-
-
-
     function setZ(val) {
-      var sumZ = $('#sumZ').textContent[0] = val;
+    $('#sumZ').html(val);
     }
 
     $(".AddBtn").click(function(){
 
-    var z = x + y;
+    var x = $('input[name="one"]').val();
+
+    var y = $('input[name="two"]').val();
+
+    a = parseInt(x);
+
+    b = parseInt(y);
+
+    var z = a + b;
 
     setZ(z);
 
@@ -32,15 +25,23 @@
     $(".MinusBtn").click(function(){
 
 
-    var z = x - y;
+
+    var x = $('input[name="one"]').val();
+
+    var y = $('input[name="two"]').val();
+
+    a = parseInt(x);
+
+    b = parseInt(y);
+
+    var z = a - b;
 
     setZ(z);
 
   });
 
 
-    var num1 = document.getElementById("X");
-  var num2 = document.getElementById("Y"); */
+
 
   /*  $(".result").parseInt($('input[name="one"]').val() + $('input[name="two"]').val());
 
