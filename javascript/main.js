@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
 
   $(document).ready(function(){
 
@@ -67,6 +67,6 @@
                 num2 = number(document.two.value);
                   result = num1 + num2;
                 } */
-</script>
+
 
 })
