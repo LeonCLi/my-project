@@ -2,20 +2,49 @@
 
   $(document).ready(function(){
 
-  /*  var num1 = document.getElementById("X");
-    var num2 = document.getElementById("Y"); */
 
-    function setZ(sum) {
-      document.getElementById('sumZ').textContent = sum;
+
+
+
+
+    var x = $('input[name="one"]');
+
+    var y = $('input[name="two"]');
+
+    x = .parseInt(x);
+
+    y = .parseInt(y);
+
+
+
+    function setZ(val) {
+      var sumZ = $('#sumZ').textContent[0] = val;
     }
 
-    $(".button").click(function(){
+    $(".AddBtn").click(function(){
 
-      $(".result").parseInt($('input[name="one"]').val() + $('input[name="two"]').val());
+    var z = x + y;
 
-    var sum = $(".result");
+    setZ(z);
 
-    });
+  });
+
+    $(".MinusBtn").click(function(){
+
+
+    var z = x - y;
+
+    setZ(z);
+
+  });
+
+
+    var num1 = document.getElementById("X");
+  var num2 = document.getElementById("Y"); */
+
+  /*  $(".result").parseInt($('input[name="one"]').val() + $('input[name="two"]').val());
+
+  var sum = $(".result"); */
 
 
     /*function $(id){return document.getElementById(id)}

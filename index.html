@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <script src='/javascript/jquery-1.11.2.min.js' type='text/javascript'></script>
-    <script src='/javascript/main.js' type='text/javascript'></script>
+    <script src='/javascript/main2.js' type='text/javascript'></script>
     <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
@@ -15,28 +15,28 @@
     <div id="intro" class="grid_0">
       <h1>Adder/Subtractor</h1>
 
-    <div id="X" class="grid_1">
+    <div class="grid_1">
       <h2>X=
-      <input type="number" name="one" placeholder="Input an integer">
+      <input id='inX' type="integer" name="one" placeholder="Input an integer">
       </h2>
     </div>
-    <div id="Y" class="grid_2">
+    <div class="grid_2">
       <h3>Y=
-      <input type="number" name="two" placeholder="Input an integer">
+      <input id='inY' type="integer" name="two" placeholder="Input an integer">
       </h3>
     </div>
 
     <div class="grid_3">
       <p>
-        <button class="button">+</button>
-        <button class="button">-</button>
+        <button class="AddBtn">+</button>
+        <button class="MinusBtn">-</button>
       </p>
     </div>
 
-    <div class="result">
+    <div>
 
       <span> X minus / plus Y is </span>
-      <span class="sumZ"> Z </span>
+      <span id="sumZ"> Z </span>
 
     </div>
   </div>
